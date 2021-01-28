@@ -1,0 +1,63 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Resume</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+	<style type="text/css">
+		header{
+			background: #1f4a75;
+			color: #fff;
+			padding: 1%;
+			text-align: center;
+		}
+		.parent{
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: center;
+		}
+		.child1{
+			width: 30%;
+			border: 1px solid red;
+			box-shadow: 0px 8px 8px#000;
+			padding: 1%;
+			margin: 1%;
+		}
+		.child2{
+			width: 30%;
+			border: 1px solid red;
+			box-shadow: 0px 8px 8px -8px #000;
+			padding: 1%;
+			margin: 1%;
+		}
+		.child1 img{
+			width: 50%;
+			text-align: center;
+			display: block;
+			margin: 0% auto;
+		}
+		@media only screen and(min-width: 481px)and(max-width: 767px){
+			.child1,.child2{
+				width: 65%;
+				font-size: 25px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<header>profile information</header>
+	<main class="parent">
+		<article class="child1"><img src="user.svg" width="50px" height="50px"><br>
+			Divya<br>
+			<a href="mailto:golladivya371@gmail.com">golladivya371@gmail.com</a></article>
+			<article class="child2"><b>summary</b>
+				<ul>
+					<li>Divya</li>
+					<li>Golla</li>
+					<li>Address</li>
+					<li>moblie no</li>
+				</ul></article>
+	        </article>	
+	</main>
+</body>
+</html>
